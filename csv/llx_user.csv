@@ -1,0 +1,2 @@
+login,lastname,firstname,employee,job,gender,accountancy_code,pass_crypted,fk_soc,address,zip,town,fk_country,office_phone,user_mobile,office_fax,email,note_public,note_private,signature,fk_user,thm,tjm,weeklyhours,dateemployment,dateemploymentend,salary,color,api_key,birth,datec,statut
+jdoe,Doe,John,1,CTO,man,,mot de passe crypté,0,61 jump street,123456,Big town,FR,0101010101,,0101010102,test@entreprise.com,Note publique,Note privée,,,,,,,,10000,,,,2015-01-01 12:30:00,1
