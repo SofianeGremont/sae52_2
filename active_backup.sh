@@ -1,7 +1,7 @@
 echo "Pour que tout fonctionne correctement, il est nécessaire de :
-- Remplir préalablement la configuration de la machine distante (utilisateur, adresse IP, mot de passe) dans le fichier backup_dolibarr.sh.
+- Remplir préalablement la configuration de la machine distante (utilisateur, adresse IP, mot de passe, choix répertoire pour la sauvegarde) dans le fichier backup_dolibarr.sh.
 - Installer le paquet openssh-server sur la machine distante.
-- Installer le paquet crontab sur la machine actuel."
+- Installer le paquet crontab sur la machine actuelle."
 
 echo "Voulez-vous activer la sauvegarde automatique 'oui' ou 'non':"
 read reponse

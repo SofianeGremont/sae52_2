@@ -10,10 +10,12 @@ mysqldump -u root -p'foo' -h 127.0.0.1 --port=3307 gestion_parc_informatique > $
 
 gzip $backup_dir/$backup_file
 
+# Configuration machine distante
 adresse_ip="192.168.1.84"
 utilisateur="user"
 mdp="user"
+chemin_sauv="/home/user/sauv-dolibarr"
 
-sshpass -p $mdp rsync -avz $backup_dir/$backup_file.gz $utilisateur@$adresse_ip:/home/user/$backup_dir
+sshpass -p $mdp rsync -avz $backup_dir/$backup_file.gz $utilisateur@$adresse_ip:$chemin_sauv
 
 rm $backup_dir/$backup_file.gz
